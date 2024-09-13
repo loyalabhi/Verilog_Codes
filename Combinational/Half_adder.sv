@@ -2,8 +2,8 @@
 module Half_adder (
   input a,
   input b,
-  output sum,
-  output carry
+  output reg sum,
+  output reg carry
 );
 
   always @(*) begin
