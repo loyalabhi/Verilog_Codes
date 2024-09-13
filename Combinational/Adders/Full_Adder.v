@@ -22,7 +22,7 @@ module Half_adder_tb;
   wire sum;
   wire carry;
 
-  Half_adder dut(a,b,.cin,sum,carry);
+  Half_adder dut(a,b,cin,sum,carry);
 
   initial begin
     a = 0; b = 0;
